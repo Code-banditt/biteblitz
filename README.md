@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # BiteBlitz 🍕✨
 
 BiteBlitz is a full-stack pizza ordering web application built with **Next.js**, **Tailwind CSS**, and **MongoDB**. It provides a smooth, interactive, and responsive experience for users to browse the menu, place orders, and track them in real-time.
@@ -25,3 +26,7 @@ BiteBlitz is a full-stack pizza ordering web application built with **Next.js**,
    ```bash
    git clone https://github.com/Code-banditt/biteblitz.git
    ```
+=======
+# biteblitz
+BiteBlitz 🍕  Order your favorite pizzas in a flash! BiteBlitz is a full-stack, modern pizza ordering app with a sleek UI, real-time cart, and smooth checkout. Built with Next.js, React, Tailwind CSS, and MongoDB, it features Google login, order tracking, and dynamic menu management.
+>>>>>>> 9c44ec528463317ea3ee26377e76628b3abab1c6
