@@ -68,7 +68,7 @@ export default function MenuSection() {
               </h2>
 
               <p className="font-semibold text-gray-700 mt-1">
-                ₦{item.sizes[0].price.toLocaleString()}
+                ${item.sizes[0].price.toLocaleString()}
               </p>
 
               <Link

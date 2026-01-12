@@ -6,6 +6,8 @@ import User from "@/models/usermodel";
 import bcrypt from "bcrypt";
 import { JWT } from "next-auth/jwt";
 import { Session } from "next-auth";
+import clientPromise from "@/lib/mongodb";
+import { MongoDBAdapter } from "@next-auth/mongodb-adapter";
 
 declare module "next-auth" {
   interface Session {
@@ -19,6 +21,7 @@ declare module "next-auth" {
 }
 
 export const authOptions = {
+  adapter: MongoDBAdapter(clientPromise),
   providers: [
     GoogleProvider({
       clientId: process.env.GOOGLE_CLIENT_ID!,
